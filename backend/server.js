@@ -51,7 +51,7 @@ const server = app.listen(PORT, console.log(`server started on PORT ${PORT}`));
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "https://clone-chat-app-5h0j.onrender.com/",
+    origin: "https://chatapp-g12p.onrender.com/",
     // credentials: true,
   },
 });
