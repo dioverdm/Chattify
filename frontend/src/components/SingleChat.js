@@ -15,7 +15,7 @@ import io from "socket.io-client";
 import Lottie from "react-lottie";
 import animationData from "../animations/typing.json";
 
-const ENDPOINT = "https://clone-chat-app-5h0j.onrender.com/";
+const ENDPOINT = "https://chatapp-g12p.onrender.com/";
 let socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
