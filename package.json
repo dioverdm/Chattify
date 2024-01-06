@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node backend/server.js"
   },
-  "author": "sanjeev singh",
+  "author": "Ritik Patel",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
