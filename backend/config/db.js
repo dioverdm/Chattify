@@ -11,7 +11,7 @@ const connectDB = async () => {
     // console.log(`MongoDB Connected: ${conn.connection.host}`.cyan.underline);
 
     mongoose.set("strictQuery", false);
-    mongoose.connect(process.env.MONGO_URI, () => {
+    mongoose.connect("mongodb+srv://mukuljatav1010:mukuljatav1010@cluster0.qmlj6pq.mongodb.net/?retryWrites=true&w=majority", () => {
     console.log("Connected to MongoDB".cyan.underline);
     });
 
